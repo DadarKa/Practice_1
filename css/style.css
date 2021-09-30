@@ -111,16 +111,23 @@ body {
   color: #02133c;
 }
 .text {
+  padding-bottom: 295px;
 }
 .textText {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.15px;
   min-height: 76px;
-  margin: 0px 0px 54px 0px;
+
+  /*margin: 0px 0px 54px 0px;*/
+}
+.blockMachine {
+  max-width: 846px;
+  margin: -295px auto 70px;
 }
 
 .machine {
+  display: block;
   width: 100%;
 }
 .services {
