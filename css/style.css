@@ -1,0 +1,168 @@
+/* Для шриштів: налаштування шрифта+кирилиця, підключаємо завжди! Чистимо непотрібні розміри шрифта в посиланні, для кращої оптимізації.
+ &display=swap&subset=cyrillic-ext */
+
+/*@import url("https://fonts.googleapis.com/css?family=Chivo:300,300italic,regular,italic,700,700italic&display=swap&subset=cyrillic-ext");*/
+/*@import url("https://fonts.googleapis.com/css?family=Poppins:300,300italic,regular,italic,700,700italic&display=swap&subset=cyrillic-ext");*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,italic,700,700italic,900,900italicdisplay=swap&subset=cyrillic-ext");
+
+/*@font-face {
+  font-family: "Polaris";
+  src: url("../fonts/Polaris.woff2") format("woff2"), url("../fonts/Polaris.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PTSans-CaptionBold.woff2") format("woff2"), url("../fonts/PTSans-CaptionBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PTSans-Caption.woff2") format("woff2"), url("../fonts/PTSans-Caption.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}*/
+
+/* Обнулення СТИЛІВ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Roboto";
+  line-height: 1;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+/* --------------- */
+
+.content {
+  background-color: #f5f5f5;
+  padding-bottom: 70px;
+}
+.blockText {
+  background-color: #ffffff;
+  max-width: 1020px;
+  min-height: 700px;
+  padding: 100px 87px 0px 87px;
+  margin: 0 auto 70px;
+}
+.bockTitle {
+  max-width: 583px;
+  margin-bottom: 36px;
+}
+.icon {
+  width: 28px;
+  height: 27px;
+  margin-bottom: 33px;
+}
+.icontext {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2.5px;
+  padding-top: 3px;
+  margin-bottom: 33px;
+}
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 42px;
+  color: #02133c;
+}
+.text {
+}
+.textText {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  min-height: 76px;
+  margin: 0px 0px 54px 0px;
+}
+
+.machine {
+  display: block;
+  max-width: 846px;
+  max-height: 420px;
+  margin: 0 auto;
+}
+.services {
+  max-width: 1020px;
+  min-height: 700px;
+  margin: 0 auto;
+}
+.servicesMulti,
+.servicesTires {
+  height: 340px;
+  width: 324px;
+  background-color: #ffffff;
+  padding: 50px 45px;
+}
+.servicesMulti {
+  margin-bottom: 24px;
+}
+.servicesText {
+  text-align: center;
+}
+.servicesTitle {
+  font-size: 19px;
+  font-weight: 900;
+  line-height: 26px;
+  color: #02133c;
+  padding: 33px 0px 20px 0px;
+}
+.servicesSubTitle {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #4b4b4b;
+}
+.serviceTires {
+}
+
+footer {
+  background-color: #02133c;
+}
+footer a {
+  color: #959595;
+}
