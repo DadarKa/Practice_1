@@ -82,8 +82,8 @@ body {
   background-color: #ffffff;
   max-width: 1020px;
   min-height: 700px;
-  padding: 100px 87px 0px 87px;
-  margin: 0 auto 70px;
+  padding: 100px 87px 354px 87px;
+  margin: 0 auto;
 }
 .bockTitle {
   max-width: 583px;
@@ -92,7 +92,6 @@ body {
 .icon {
   width: 28px;
   height: 27px;
-  margin-bottom: 33px;
 }
 .icontext {
   display: inline-block;
@@ -102,7 +101,7 @@ body {
   line-height: 24px;
   letter-spacing: 2.5px;
   padding-top: 3px;
-  margin-bottom: 33px;
+  padding-bottom: 33px;
 }
 .title {
   font-size: 36px;
@@ -111,24 +110,21 @@ body {
   color: #02133c;
 }
 .text {
-  padding-bottom: 295px;
 }
 .textText {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.15px;
-  min-height: 76px;
-
-  /*margin: 0px 0px 54px 0px;*/
 }
 .blockMachine {
   max-width: 846px;
-  margin: -295px auto 70px;
+  margin: -370px auto 80px;
 }
 
 .machine {
   display: block;
   width: 100%;
+  padding-top: 50px;
 }
 .services {
   max-width: 1020px;
@@ -141,10 +137,9 @@ body {
   width: 324px;
   background-color: #ffffff;
   padding: 50px 45px;
-}
-.servicesMulti {
   margin-bottom: 24px;
 }
+
 .servicesText {
   text-align: center;
 }
@@ -160,8 +155,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.15px;
   color: #4b4b4b;
-}
-.serviceTires {
 }
 
 footer {
